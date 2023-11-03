@@ -105,6 +105,42 @@ input#title {
     font-size: 1.01em;
 }
 
+#downloadImages {
+    visibility: hidden;
+}
+
+#options {
+    visibility: hidden;
+}
+
+#includeTemplate {
+    visibility: hidden;
+}
+
+#download {
+    visibility: hidden;
+}
+
+#table-of-content {
+    padding: 0.5em;
+    color: var(--fg);
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    font-size: 1.15rem;
+}
+
+#table-of-content > ol {
+    list-style-position: inside;
+}
+
+#table-of-content > ol > li {
+    margin-bottom: 0.8rem;
+}
+
+#table-of-content > h3 {
+    margin-bottom: 0.8rem;
+}
+
 #container {
     width: 100%;
     height: 100%;

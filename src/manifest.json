@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "MarkDownload - Markdown Web Clipper",
+  "name": "TOC Generator",
   "version": "3.2.1",
-  "author": "Gordon Pedsersen",
+  "author": "Abiral Subedi",
   "description": "This extension works like a web clipper, but it downloads articles in markdown format.",
   "icons": {
     "16": "icons/favicon-16x16.png",
@@ -21,7 +21,7 @@
     "clipboardWrite"
   ],
   "browser_action": {
-    "default_title": "MarkDownload",
+    "default_title": "TOC Generator",
     "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "icons/favicon-16x16.png",
